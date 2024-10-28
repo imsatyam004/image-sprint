@@ -7,11 +7,14 @@ import hill5 from "/hill5.png"
 import tree from "/tree.png"
 import plant from "/plant.png"
 import leaf from "/leaf.png"
+import login from "/login.png"
 
 function App() {
 
   return (
     <>
+
+      <img src={login} alt="image login" />
       <img src={hill1} alt="image hill" />
       <img src={hill2} alt="image hill2" />
       <img src={hill3} alt="image hill3" />
